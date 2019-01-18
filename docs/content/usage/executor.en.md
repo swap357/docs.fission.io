@@ -27,7 +27,7 @@ by giving `--version 3` flag when creating an environment.
 ```bash
 $ fission env create --name python --version 3 --poolsize 1 --image fission/python-env:0.11.0
 
-$ kubectl -n fission-function get pod -l environmentName=test
+$ kubectl -n fission-function get pod -l environmentName=python
 ```
 
 Now, you shall see only one pod for the environment we just created.
